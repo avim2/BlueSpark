@@ -1,0 +1,23 @@
+{
+  "release": 2,
+  "commit": "bf79ab9",
+  "date": "2026-10-18",
+  "zip": "builds/ttt2-playtest-release2-bf79ab9.zip",
+  "sha256": "3e54aea09c353094a0b12e7c08951d4b3d5cbfcacc90fa991eaa321bb33de22f",
+  "size": 693516,
+  "notes": [
+    "A \"Display\" choice in Start Here",
+    "\"Allow tearing (lowest lag, vsync off)\"",
+    "A tap shorter than a frame is not lost",
+    "Start Here keeps itself up to date",
+    "Your own name instead of \"User\"",
+    "The K.O. replay shows the finishing hit",
+    "No hitch at the first round call",
+    "Slow PCs stutter less",
+    "No boot notices",
+    "Input delay measured: about 29 ms from controller read to screen, 25 ms with tearing allowed",
+    "Training mode: Punish plays your own Defense recording (Punish With)",
+    "Training mode: Throw Break Training includes 1+2 throws; Neutral Block off by default",
+    "Training mode: replays reach later rounds up to 4x faster; rewind is Select + LB"
+  ]
+}
