@@ -27,8 +27,10 @@ Getting started
 
 1. Download the newest zip from the builds folder, or use the one you were given.
 2. Unzip it to a short path, for example C:\ttt2.
-3. Double-click Start Here and click the four steps in order: Install tools, Choose my game + update,
-   Build the game, Play.
+3. Double-click Start Here and click the steps in order: Install tools, Choose my game + update,
+   Build the game. Then Play TTT2, or Play BlueSpark (the fast client: Ranked, lobbies, training and
+   replays in one window, with the game kept ready behind it). Both play the same game: players on
+   either one meet each other online.
 
 The README.txt inside the zip explains each step, where to find your game files, the controls and
 what to do if something goes wrong.
