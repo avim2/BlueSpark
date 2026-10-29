@@ -1,12 +1,27 @@
 {
-  "release": 12,
-  "commit": "4f736c5",
-  "date": "2026-10-28",
-  "zip": "builds/ttt2-playtest-release12-4f736c5.zip",
-  "sha256": "9a013e4896f902e6d32f06a74058b76e2b2298845b528d50baffa856e0874cca",
-  "size": 49625324,
+  "release": 13,
+  "commit": "0527078",
+  "date": "2026-10-29",
+  "zip": "builds/ttt2-playtest-release13-0527078.zip",
+  "sha256": "e1831151080c571a99f6a996966114770c466dccf5f9e35fecfbca43555b0331",
+  "size": 50019836,
   "notes": [
-    "Fixed online fights freezing or crashing a few seconds in (4.4.2): rollbacks use full saves again"
+    "The first moments of each round no longer drop your inputs in online fights",
+    "A round that ends on time now plays its last frames before the round ends",
+    "Ranked: if your opponent ran below 57 frames a second for most of game 1, you can abandon the set at the vote after i...",
+    "Ranked: the vote panel now says when your opponent's game isn't in the same set or isn't answering, and a set where t...",
+    "Ranked: a set is only ever played against the opponent you were paired with",
+    "Ranked fights: the record under each name shows wins only",
+    "Fixed a freeze on the stages with water and tar (the ripples), and the game now names that problem in its log if it e...",
+    "When the game freezes, its report now says more about where it was stuck",
+    "Costumes are no longer black or swapped on slower PCs",
+    "No more stutter each time you tag in a partner",
+    "Logs: far fewer 'Recovered stale physical page protection' lines",
+    "Folders and files with brackets or other unusual characters in their names ([RF] and the like) no longer stop Start H...",
+    "The update check no longer says an update didn't install when it did. If an update really doesn't go through, Start H...",
+    "When Start Here can't open, its window now shows why, instead of flashing and closing",
+    "A new box: keep the game's sound on when its window is in the background (untick \"Mute the game when its window is in...",
+    "Builds are faster"
   ],
-  "name": "Release 4.4.3"
+  "name": "Release 4.5"
 }
