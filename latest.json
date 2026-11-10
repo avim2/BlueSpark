@@ -1,12 +1,13 @@
 {
-  "release": 20,
-  "commit": "c303814",
-  "date": "2026-11-09",
-  "zip": "builds/ttt2-playtest-release20-c303814.zip",
-  "sha256": "4019f3491f83a2712c5ff1acfd1db4509e945672669685fd3df9cfbab383c5ba",
-  "size": 55314350,
+  "release": 21,
+  "commit": "0f986f7",
+  "date": "2026-11-10",
+  "zip": "builds/ttt2-playtest-release21-0f986f7.zip",
+  "sha256": "ff91d5f60fa68c7c6bb7113cf8b58e82a493332f64975cce9322e4a799316ce7",
+  "size": 55315468,
   "notes": [
-    "4.7.1: fixed a crash while searching for Ranked (in the practice fight against the Mokujin dummy)"
+    "4.7.2: BlueSpark's Replays WATCH plays a replay without asking you to pick anyone first, and the Training tab's dummy...",
+    "4.7.2: On PCs with fewer than 6 processor threads, the game waits for the graphics card as 4.6.3 did. 4.7's change lo..."
   ],
-  "name": "Release 4.7.1"
+  "name": "Release 4.7.2"
 }
