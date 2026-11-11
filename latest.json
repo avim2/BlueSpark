@@ -1,13 +1,19 @@
 {
-  "release": 21,
-  "commit": "0f986f7",
-  "date": "2026-11-10",
-  "zip": "builds/ttt2-playtest-release21-0f986f7.zip",
-  "sha256": "ff91d5f60fa68c7c6bb7113cf8b58e82a493332f64975cce9322e4a799316ce7",
-  "size": 55315468,
+  "release": 22,
+  "commit": "b99b909",
+  "date": "2026-11-11",
+  "zip": "builds/ttt2-playtest-release22-b99b909.zip",
+  "sha256": "b7d990ba1c5f93ac41ecff8131ec2e278e236f00acac9eef4419d7bc1d693caf",
+  "size": 55355565,
   "notes": [
-    "4.7.2: BlueSpark's Replays WATCH plays a replay without asking you to pick anyone first, and the Training tab's dummy...",
-    "4.7.2: On PCs with fewer than 6 processor threads, the game waits for the graphics card as 4.6.3 did. 4.7's change lo..."
+    "Fixed an empty message box that sat over every screen in online play on a PC that had been running for 25 to 50 days...",
+    "After a match that fell through, the next match found in the same search starts clean and gets its own OPPONENT FOUND...",
+    "SEARCH AGAIN on the end card of a finished Ranked set now goes into a new Ranked search",
+    "Fixed online fights that stopped a few seconds after they started for players whose internet connection drops large p...",
+    "If the game's online port (51074) is reserved by Windows or used by another program, the game now takes another port...",
+    "On a PC that has been running for 25 to 50 days without a restart, a match that started on the relay route now switch...",
+    "Invite codes no longer reach the game's log, and the lobby's and matchmaking's log lines no longer show public networ...",
+    "Install warns when Windows Smart App Control is on, which can stop a game built on your PC from starting, and says so..."
   ],
-  "name": "Release 4.7.2"
+  "name": "Release 4.7.3"
 }
