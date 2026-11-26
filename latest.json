@@ -1,38 +1,18 @@
 {
-  "release": 27,
-  "commit": "979ff4d",
+  "release": 28,
+  "commit": "5392dad",
   "date": "2026-11-26",
-  "zip": "builds/ttt2-playtest-release27-979ff4d.zip",
-  "sha256": "6fd86bff9d91406e8b4f2948b0e7d78e53fdf2c3f2bdb0f6176c59c68c5e217f",
-  "size": 67467234,
+  "zip": "builds/ttt2-playtest-release28-5392dad.zip",
+  "sha256": "e0f76292c5c39e6915e615ff9bd80771d0cc1d0c26fe69d447386890fb4c9a10",
+  "size": 67516942,
   "notes": [
-    "Pressing FIND MATCH from the classic menu first brings Practice back (\"GETTING READY...\"), then searches; before, a m...",
-    "When a match is found, nothing can be accepted or declined for the first second, and a button that was already held d...",
-    "Custom outfits made in the game's Customize are listed in BlueSpark's costume picker again",
-    "Fixed a freeze that could happen as the next game of a set loaded (most often at 1 - 1)",
-    "Fixed a crash or freeze that could happen at the start of a later game of a set (most often game 3)",
-    "Fixed the most common \"the match did not start\": when your opponent's data arrives late, the game now waits for it in...",
-    "Fixed \"only one match per session\": after a set, the next matches found could end as they loaded because the search n...",
-    "Two players who picked the same two characters in a different order are no longer refused",
-    "A match can no longer start without your accept. Fixed a crash when a match was found while you were in an offline mode",
-    "The Y shortcut starts a search only in Practice, not inside an offline mode",
-    "Players whose connection needs the relay are no longer dropped before they can accept: the relay starts sooner",
-    "Fixed matches after the first of a session starting less reliably than the first",
-    "Fixed a crash as a match loaded, after its first try had fallen back to Practice",
-    "The instant rematch no longer gives up while both players are still connected; a set is no longer voided because one...",
-    "After a match that could not start, the game no longer runs at an uncapped frame rate",
-    "When a match cannot start, the game says why when it comes back, in one line",
-    "A new stage is chosen for every set again; before, every set of a session was played on the same stage",
-    "Costumes you pick in Practice's character select are the ones you wear in the match, also when you change them just b...",
-    "After a set, each of your characters keeps its own custom outfit; they could come back wearing each other's",
-    "From the classic menu's Ranked and Quick Match route, you are back in Practice after a set, with the search running",
-    "The game is never started on a program built for an older version: if an update could not rebuild it, BlueSpark rebui...",
-    "An update by file now also fetches the speed profile",
-    "A crash now always leaves its crash line and its dump; some crashes were lost before they were written"
+    "Fixed: after a Ranked set ended early with a forfeit, your next set could get stuck loading after its first game, and...",
+    "A fix for a rare crash between the games of a set",
+    "A fix for the crash right after accepting a match"
   ],
-  "name": "Release 5.2",
+  "name": "Release 5.2.1",
   "profile": {
-    "file": "ttt2-pgo-release27-979ff4d.profdata",
+    "file": "ttt2-pgo-release28-5392dad.profdata",
     "size": 33280464
   }
 }
